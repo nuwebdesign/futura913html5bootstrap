@@ -3174,9 +3174,8 @@ fieldset[disabled] .btn-success.active {
   background-color: #ffffff;
 }
 .btn-info {
-  color: #ffffff;
-  background-color: #3498db;
-  border-color: #3498db;
+  color: #333333;
+  background-color: #C0D344;
 }
 .btn-info:hover,
 .btn-info:focus,
@@ -4394,7 +4393,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #092332;
+  background-color: #232323;
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
