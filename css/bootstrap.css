@@ -3877,8 +3877,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   list-style: none;
 }
 .nav > li {
-  position: relative;
-  display: block;
+    position: relative;
+    display: block;
+    border-right: 1px solid #FFFFFF;
+    height: 30px;
+    border-top: 10px;
 }
 .nav > li > a {
   position: relative;
