@@ -44,6 +44,46 @@ html, body {
     width: 100%;
 }
 
+/* TopMenu  */
+#futura-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#futura-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(35, 35, 35, 1);
+}
+#futura-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(34, 178, 214, 1);
+    background-color: rgba(35, 35, 35, 1);
+    border-right: 2px solid rgba(65, 65, 65, 0.34);
+}
+#futura-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#futura-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(224, 224, 224, 1);
+}
+#futura-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#futura-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#futura-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(242, 242, 242, 1);
+}
+#futura-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #f2f2f2;
+}
+#futura-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#futura-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #f2f2f2;
+}
+#futura-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f2f2f2;
+}
+#futura-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#futura-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #232323;
+}
+/* END TopMenu */
+
 /* vertical-centered text */
 .text-vcenter {
     display: table-cell;
@@ -75,7 +115,7 @@ html, body {
 
 /* additional sections */
 #inicio {
-    background: url(../images/fondo3.jpg) no-repeat center center fixed;
+    background: url(../images/fondo1.jpg) no-repeat center center fixed;
     display: table;
     height: 100%;
     position: relative;
@@ -129,7 +169,7 @@ html, body {
 }
 
 footer {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 footer .glyphicon {
     color: #333333;
@@ -140,15 +180,15 @@ footer .glyphicon:hover {
 }
 
 .site-logo img{
-    width: 55%;
+    width: 22%;
     height: auto;
     padding: 0.2em;
 }
 .navbar-nav {
-    padding-top: 5px;
+
 }
 .navbar-fixed-top{
-    border-bottom: 2px solid rgba(122, 122, 122, 0.66);
+    border-bottom: 2px solid rgba(65, 65, 65, 1);
 }
 
 @media (max-width: 480px) {

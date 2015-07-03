@@ -1147,10 +1147,10 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 21px;
-  margin-bottom: 21px;
-  border: 0;
-  border-top: 1px solid #464545;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid rgba(20, 20, 20, 0.14);
 }
 .sr-only {
   position: absolute;
@@ -3879,14 +3879,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li {
     position: relative;
     display: block;
-    border-right: 1px solid #FFFFFF;
-    height: 30px;
-    border-top: 10px;
 }
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 10px 20px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
